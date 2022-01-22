@@ -1,2 +1,2 @@
 budgetme-build-proto:
-	@protoc -I budgetme/proto budgetme/proto/*.proto --gofast_out=plugins=grpc:budgetme/proto --dart_out=grpc:budgetme/proto
+	@protoc -I proto/budgetme proto/budgetme/*.proto --gofast_out=plugins=grpc:go/budgetme --dart_out=grpc:lib/budgetme
