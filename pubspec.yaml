@@ -1,0 +1,6 @@
+name: grpc
+description: Protos Definition accross OrdinaryTechFolks
+homepage: http://ordinarytechfolks.com
+
+environment:
+  sdk: '>=2.10.0 <3.0.0'
